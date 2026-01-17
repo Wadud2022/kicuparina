@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter",sans-serif;
+}
+
+
+.banner-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 60px;
+  background: #ffffff;
+  border-bottom: 2px solid #074edb;
+}
+
+.kv-logo img {
+  height: 36px;        
+  width: auto;        
+  display: block;
+}
+
+.center-menu a{
+   margin: 0 7px; 
+   text-decoration: none;
+   color: #000;
+   font-weight: 600; 
+}
+
+.center-menu a:hover { 
+  color: #15803d;
+} 
+
+.up-side-greenbtn {
+  background: #30b830;
+  color: #ffffff;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  background:var(--#30B868, rgb(163, 64, 102)); 
+}   
+
+.up-side-greenbtn:hover {
+  background: #276749;}
