@@ -1,38 +1,33 @@
-* {
+* {          
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter",sans-serif;
-}
-
-
-.banner-bar{
+          }
+ .banner-bar{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 7px 60px;
+  padding: 5px 60px;
   background: #ffffff;
-  border-bottom: 2px solid #074edb;
-}
-
-.kv-logo img {
-  height: 36px;        
-  width: auto;        
-  display: block;
-}
-
-.center-menu a{
+             }   
+   .kv-logo img{
+   height: 36px;        
+   width: auto;        
+   display: block;
+        }
+   .center-menu a{
    margin: 0 7px; 
    text-decoration: none;
    color: #000;
-   font-weight: 600; 
-}
-
-.center-menu a:hover { 
+   font-weight: Medium; 
+   line-height: 152%;
+    font-size: 16px;
+         }
+ .center-menu a:hover { 
   color: #15803d;
-} 
-
-.up-side-greenbtn {
+          } 
+ .up-side-greenbtn {
   background: #30b830;
   color: #ffffff;
   border: none;
@@ -40,8 +35,98 @@
   border-radius: 4px;
   cursor: pointer;
   font-weight: 500;
-  background:var(--#30B868, rgb(163, 64, 102)); 
-}   
+  text-decoration: none;
+       }   
+ .up-side-greenbtn:hover {
+  background: #469165;
+ }
 
-.up-side-greenbtn:hover {
-  background: #276749;}
+ /* section */
+#banner{ position: relative;
+         min-height: 70vh;
+         background: url("/Knowledge-Vault/assets/banner.jpg") CENTER / cover no-repeat;
+         display: flex;
+         align-items: center;
+         padding: 0 80px;
+         color: #ffffff; 
+         text-transform: capitalize;
+          }
+.overlay { position: absolute;
+           inset: 0;
+       background: linear-gradient(
+         to right, rgba(10, 37, 65, 0.678), rgba(10, 81, 214, 0.308));
+               }
+.banner-content {
+  position: relative;
+  max-width: 1600px;
+  z-index: 1;
+      }
+.badge { 
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  color: #166534;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 24px;
+            }
+ .green-dot{ 
+  width: 9px;
+  height: 9px;
+  background: #30B868;
+  border-radius: 80%;
+}
+ #banner h1 { font-size: 56px;
+              line-height: 1.15;
+              margin-bottom: 20px;
+              font-weight: 700;
+       }
+.gree-light { color: #30b830; 
+               }     
+ #banner p{ font-size: 17px;
+              font-size: 17px;
+              line-height: 1.7;
+              color: #ffffff;
+               margin-bottom: 36px;
+                }
+.buttons {display: flex; 
+          gap: 16px;
+          margin-right: 0%;
+              }
+ .buttons { display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 22px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 15px;
+           font-weight: 600;
+           cursor: pointer;  
+                   }
+.left-btn { background: #30b830; 
+            color: #ffffff;
+            border: none;
+            padding: 10px 18px;
+             border-radius: 4px;
+              text-decoration: none;
+               }
+.left-btn:hover { background: #15803d;
+                      }
+.right-btn {  background: transparent;
+              border: 1px solid #ffffff;
+              color: #ffffff;
+               padding: 10px 18px;
+                border-radius: 4px;
+                text-decoration: none;
+                              }     
+.right-btn:hover { background: #71db94;  
+                   }
+
+
+
+
+
+                   
