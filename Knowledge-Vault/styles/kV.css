@@ -1,8 +1,7 @@
-* {          
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter",sans-serif;
+* {margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Inter",sans-serif;
           }
  .banner-bar{
   display: flex;
@@ -43,32 +42,35 @@
 
  /* section */
 #banner{ position: relative;
-         min-height: 70vh;
+         min-height:70vh;
          background: url("/Knowledge-Vault/assets/banner.jpg") CENTER / cover no-repeat;
-         display: flex;
+         display:flex;
          align-items: center;
          padding: 0 80px;
          color: #ffffff; 
          text-transform: capitalize;
+         justify-content: center;
           }
 .overlay { position: absolute;
            inset: 0;
        background: linear-gradient(
-         to right, rgba(10, 37, 65, 0.678), rgba(10, 81, 214, 0.308));
+         to right,rgba(8, 23, 38, 0.9),
+                  rgba(8, 23, 38, 0.6));
                }
 .banner-content {
   position: relative;
   max-width: 1600px;
   z-index: 1;
+  text-align: center;
       }
 .badge { 
   display: inline-flex;
   align-items: center;
   gap: 8px;
   background: #ffffff;
-  color: #166534;
+  color: #30B868;
   padding: 6px 14px;
-  border-radius: 999px;
+  border-radius: 1000px;
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 24px;
@@ -106,9 +108,9 @@
            font-weight: 600;
            cursor: pointer;  
                    }
-.left-btn { background: #30b830; 
+.left-btn { background: #469165; 
             color: #ffffff;
-            border: none;
+            border:1px solid #469165;
             padding: 10px 18px;
              border-radius: 4px;
               text-decoration: none;
@@ -122,11 +124,10 @@
                 border-radius: 4px;
                 text-decoration: none;
                               }     
-.right-btn:hover { background: #71db94;  
+.right-btn:hover { background: #469165;  
                    }
 
 
 
 
 
-                   
