@@ -1,3 +1,6 @@
+
+
+      /* banner-bar */
 * {margin: 0; 
    padding: 0;
    box-sizing: border-box;
@@ -40,7 +43,8 @@
   background: #469165;
  }
 
- /* section */
+        /* section */
+
 #banner{ position: relative;
          min-height:70vh;
          background: url("/Knowledge-Vault/assets/banner.jpg") CENTER / cover no-repeat;
@@ -53,33 +57,29 @@
           }
 .overlay { position: absolute;
            inset: 0;
-       background: linear-gradient(
-         to right,rgba(8, 23, 38, 0.9),
-                  rgba(8, 23, 38, 0.6));
+           background: linear-gradient(to right,rgba(8, 23, 38, 0.9),rgba(8, 23, 38, 0.6));
                }
-.banner-content {
-  position: relative;
-  max-width: 1600px;
-  z-index: 1;
-  text-align: center;
-      }
-.badge { 
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: #ffffff;
-  color: #30B868;
-  padding: 6px 14px;
-  border-radius: 1000px;
-  font-size: 14px;
-  font-weight: 500;
-  margin-bottom: 24px;
+    .banner-content { position: relative;
+                       max-width: 1600px;
+                       z-index: 1;
+                     text-align: center;
+                  }
+ .badge { display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          background: #ffffff;
+          color: #30B868;
+          padding: 6px 14px;
+          border-radius: 1000px;
+          font-size: 14px;
+          font-weight: 500;
+          margin-bottom: 24px;
             }
- .green-dot{ 
-  width: 9px;
-  height: 9px;
-  background: #30B868;
-  border-radius: 80%;
+
+ .green-dot{ width: 9px;
+             height: 9px;
+             background: #30B868;
+             border-radius: 80%;
 }
  #banner h1 { font-size: 56px;
               line-height: 1.15;
@@ -87,12 +87,13 @@
               font-weight: 700;
        }
 .gree-light { color: #30b830; 
-               }     
- #banner p{ font-size: 17px;
-              font-size: 17px;
-              line-height: 1.7;
-              color: #ffffff;
-               margin-bottom: 36px;
+               }  
+
+#banner p{ font-size: 17px;
+                    font-size: 17px;
+                    line-height: 1.7;
+                    color: #ffffff;
+                    margin-bottom: 36px;
                 }
 .buttons {display: flex; 
           gap: 16px;
@@ -126,6 +127,78 @@
                               }     
 .right-btn:hover { background: #469165;  
                    }
+
+
+#problems{ padding: 100px 80px;
+           text-align: center;
+           background: #ffffff;
+          }
+#problems h2 {font-size: 48px;
+              font-weight: 700;
+              color: #001931;
+              margin-bottom: 12px;
+              font-style: Bold;
+              line-height: 58px;
+}
+.title{color: #627382;
+              margin: 0 auto 60px;
+              font-size: 16px;
+              font-style: Regular;
+              max-width: 700px;
+              font-weight: 400;
+              line-height: 20PX;
+              letter-spacing: 0%;
+              text-align: center;
+ }
+
+.frames {display: grid;
+         grid-template-columns: repeat(4, 1fr);
+         gap: 16px;
+}
+
+.frame { background: rgba(255, 255, 255, 1); 
+         padding: 40px 30px; 
+         border-radius: 8px; 
+         box-shadow:  0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+         transition: transform 0.3s ease, box-shadow 0.3s ease;
+         gap: 16px;  
+}
+
+.frame:hover { transform: translateY(-6px);
+               box-shadow:0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+               box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+               background: rgba(255, 255, 255, 1);
+}
+
+
+.icon { width: 56px;
+        height: 56px;
+        background: #F95555;
+         border-radius: 100%;
+         display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 20px;
+}
+
+.icon img { width: 27.1px;
+            height: 29px;
+            top: 1.5px;
+            left: 2.49px;
+}
+
+
+ .frame h3 {  font-size: 20px;
+              color: #001931;
+              margin-bottom: 10px;
+}
+
+.frame p { font-size: 15px;
+          color: #627382;
+          line-height:1.6;
+}
+
+
 
 
 
