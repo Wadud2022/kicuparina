@@ -1,10 +1,10 @@
 
 
-      /* banner-bar */
+      /* header-bar */
 * {margin: 0; 
    padding: 0;
    box-sizing: border-box;
-   font-family: "Inter",sans-serif;
+   font-family: 'Inter', 'Segoe UI', sans-serif; 
           }
  .banner-bar{
   display: flex;
@@ -43,7 +43,7 @@
   background: #469165;
  }
 
-        /* section */
+        /* banner section */
 
 #banner{ position: relative;
          min-height:70vh;
@@ -127,7 +127,7 @@
                               }     
 .right-btn:hover { background: #469165;  
                    }
-
+                 /* problem section */
 
 #problems{ padding: 100px 80px;
            text-align: center;
@@ -197,6 +197,77 @@
           color: #627382;
           line-height:1.6;
 }
+
+         /* -- middle Leftside & rightside content  */
+
+
+
+
+.SOLUTION {
+  max-width: 1600px;
+  margin: auto;
+  display: grid;
+   grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 70px;
+}
+
+
+.left-image img {
+  width: 100%;
+  max-width: 520px;
+}
+
+
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #16a34a;
+  letter-spacing: 0px;
+  display: flex;
+  margin-bottom: 12px;
+  align-items: flex-start;
+}
+
+.right-content h2 { font-size: 42px; 
+                    line-height: 1.25;
+                    display: flex;
+                     margin-bottom: 12px;
+                      align-items: center;
+                      text-align: left;
+                     
+                   }
+
+.right-content p { 
+                   text-align: left;
+                   color: #627382;
+                    font-family: Inter;
+                    font-style: Regular;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0%;
+                    margin-bottom: 40px;}
+
+.right-content ul { list-style: none;
+                    }
+
+.right-content li { display: flex;
+                    gap: 6px;
+                    margin-bottom: 14px;
+                    align-items: flex-start;
+                          }
+.right-content li img { width: 18px;
+                        height: 18px;
+                        margin-top: 4px;
+               }
+.right-content li span {font-size: 16px;
+                        line-height: 1.6;
+                        display: flex;
+                      }
+ 
+
+
 
 
 
