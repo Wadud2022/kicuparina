@@ -45,17 +45,14 @@
 
 #banner{ position: relative;
          min-height:70vh;
-         background: url("./image/banner.jpg") CENTER / cover no-repeat;
+         background: url("./image/hero-bg.png") CENTER / cover no-repeat;
          display:flex;
          align-items: center;
          color: #ffffff; 
          text-transform: capitalize;
          justify-content: center;
           }
-.overlay { position: absolute;
-           inset: 0;
-           background: linear-gradient(to right,rgba(8, 23, 38, 0.9),rgba(8, 23, 38, 0.6));
-               }
+
     .banner-content { position: relative;
                       max-width: 900px;
                       z-index: 1;
