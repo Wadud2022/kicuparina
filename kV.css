@@ -1,10 +1,11 @@
 
-      /* header-bar */
+      
 * {margin: 0; 
    padding: 0;
    box-sizing: border-box;
    font-family: 'Inter', 'Segoe UI', sans-serif; 
           }
+          /* header-bar */
  .banner-bar{
   display: flex;
   align-items: center;
@@ -21,8 +22,7 @@
    margin: 0 7px; 
    text-decoration: none;
    color: #000;
-   font-weight: Medium; 
-   line-height: 152%;
+   font-weight: 500; 
     font-size: 16px;
          }
  .center-menu a:hover { 
@@ -36,7 +36,6 @@
   border-radius: 4px;
   cursor: pointer;
   font-weight: 500;
-  text-decoration: none;
        }   
  .up-side-greenbtn:hover {
   background: #469165;
@@ -46,10 +45,9 @@
 
 #banner{ position: relative;
          min-height:70vh;
-         background: url("image/banner.jpg") CENTER / cover no-repeat;
+         background: url("./image/banner.jpg") CENTER / cover no-repeat;
          display:flex;
          align-items: center;
-         padding: 0 80px;
          color: #ffffff; 
          text-transform: capitalize;
          justify-content: center;
@@ -59,9 +57,10 @@
            background: linear-gradient(to right,rgba(8, 23, 38, 0.9),rgba(8, 23, 38, 0.6));
                }
     .banner-content { position: relative;
-                       max-width: 1600px;
-                       z-index: 1;
+                      max-width: 900px;
+                      z-index: 1;
                      text-align: center;
+                     padding: 0 20px;
                   }
  .badge { display: inline-flex;
           align-items: center;
@@ -69,7 +68,7 @@
           background: #ffffff;
           color: #30B868;
           padding: 6px 14px;
-          border-radius: 1000px;
+          border-radius: 999px;
           font-size: 14px;
           font-weight: 500;
           margin-bottom: 24px;
@@ -78,10 +77,9 @@
  .green-dot{ width: 9px;
              height: 9px;
              background: #30B868;
-             border-radius: 80%;
+             border-radius: 50%;
 }
- #banner h1 { font-size: 56px;
-              line-height: 1.15;
+ #banner h1 { font-size: 56px;           
               margin-bottom: 20px;
               font-weight: 700;
        }
@@ -96,7 +94,7 @@
                 }
 .buttons {display: flex; 
           gap: 16px;
-          margin-right: 0%;
+          justify-content: center;
               }
  .buttons { display: inline-flex;
             align-items: center;
@@ -112,17 +110,17 @@
             color: #ffffff;
             border:1px solid #469165;
             padding: 10px 18px;
-             border-radius: 4px;
-              text-decoration: none;
+            border-radius: 4px;
+            text-decoration: none;
                }
 .left-btn:hover { background: #15803d;
                       }
 .right-btn {  background: transparent;
               border: 1px solid #ffffff;
               color: #ffffff;
-               padding: 10px 18px;
-                border-radius: 4px;
-                text-decoration: none;
+              padding: 10px 18px;
+              border-radius: 4px;
+              text-decoration: none;
                               }     
 .right-btn:hover { background: #469165;  
                    }
@@ -136,40 +134,33 @@
               font-weight: 700;
               color: #001931;
               margin-bottom: 12px;
-              /* font-style: Bold; */
               line-height: 58px;
-                   }
+            }
+              
 .title{color: #627382;
               margin: 0 auto 60px;
               font-size: 16px;
-              font-style: Regular;
-              max-width: 700px;
-              font-weight: 400;
-              line-height: 20PX;
-              letter-spacing: 0%;
-              text-align: center;
- }
-.frames {display: grid;
-         grid-template-columns: repeat(4, 1fr);
-         gap: 16px;
-}
+              max-width: 700px;         
+      }
+ .frames {display: grid;
+          grid-template-columns: repeat(4, 1fr); 
+/} 
 .frame { background: rgba(255, 255, 255, 1); 
          padding: 40px 30px; 
          border-radius: 8px; 
          box-shadow:  0px 0px 8px 0px rgba(0, 0, 0, 0.06);
          transition: transform 0.3s ease, box-shadow 0.3s ease;
-         gap: 16px;  
 }
 .frame:hover { transform: translateY(-6px);
                box-shadow:0px 0px 8px 0px rgba(0, 0, 0, 0.06);
                box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
                background: rgba(255, 255, 255, 1);
-}
+             }
 .icon { width: 56px;
         height: 56px;
         background: #F95555;
-         border-radius: 100%;
-         display: flex;
+        border-radius: 100%;
+        display: flex;
         align-items: center;
         justify-content: center;
         margin: 0 auto 20px;
