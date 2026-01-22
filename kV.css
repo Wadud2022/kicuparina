@@ -1,5 +1,4 @@
 
-
       /* header-bar */
 * {margin: 0; 
    padding: 0;
@@ -47,7 +46,7 @@
 
 #banner{ position: relative;
          min-height:70vh;
-         background: url("/Knowledge-Vault/assets/banner.jpg") CENTER / cover no-repeat;
+         background: url("image/banner.jpg") CENTER / cover no-repeat;
          display:flex;
          align-items: center;
          padding: 0 80px;
